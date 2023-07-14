@@ -58,7 +58,7 @@ public class B3Test {
     driver.findElement(By.id("city")).sendKeys("Kitchener");
     driver.findElement(By.id("state")).sendKeys("Ontario");
     driver.findElement(By.id("zipCode")).sendKeys("N2M 3N6");
-    driver.findElement(By.cssSelector(".control-group:nth-child(2) > .controls")).click();
+    
     
   }
 }
